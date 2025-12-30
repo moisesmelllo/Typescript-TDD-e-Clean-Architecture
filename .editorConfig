@@ -1,0 +1,21 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Indica que este é o arquivo raiz e o editor não deve procurar configurações acima
+root = true
+
+# Configurações para TODOS os arquivos
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Ajustes específicos para Markdown (opcional, mas recomendado)
+[*.md]
+trim_trailing_whitespace = false
+
+# Se você usar arquivos Bash/Shell scripts no projeto
+[*.{sh,bash}]
+indent_size = 4
